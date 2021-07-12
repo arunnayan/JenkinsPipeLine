@@ -1,0 +1,45 @@
+{
+  "automationName": "XCUITest",
+  "platformVersion": "12.2.1",
+  "deviceName": "iPhone X 1",
+  "bundleId": "com.netflix.Netflix",
+  "xcodeSigninId": "iphone Developer",
+  "xcodeOrgId": "4KSB69Q3FY",
+  "platformName": "iOS",
+  "udid": "126d3c326b33205d4fd81be0fa80b8adfc83b8c2",
+  "noReset": "true",
+  "autoAcceptAlert": "true",
+  "appiumURL": "http://127.0.0.1:4725/wd/hub"
+}
+
+
+{
+  "automationName": "XCUITest",
+  "platformVersion": "12.2.1",
+  "bundleID": "com.apple.Preferences",
+ "deviceName": "iPhone X 1",
+  "xcodeSigninId": "iphone Developer",
+  "xcodeOrgId": "4KSB69Q3FY",
+  "platformName": "iOS",
+  "allowProvisioningUpdates": true,
+  "app": "Settings",
+  "fullReset": false,
+  "noReset": true,
+"udid": "126d3c326b33205d4fd81be0fa80b8adfc83b8c2",
+}
+
+{
+  "automationName": "uiautomator2",
+  "platformName": "Android",
+  "deviceName": "Samsung",
+  "platformVersion": "10",
+  "udid": "988923354d50583051",
+  "appPackage": "com.netflix.mediaclient",
+  "appActivity": "com.netflix.mediaclient.ui.launch.UIWebViewActivity",
+  "newCommandTimeout": 30000,
+  "fullReset": false,
+  "noReset": true,
+  "bp": "7000",
+  "appiumURL": "http://127.0.0.1:4724/wd/hub",
+  "skipServerInstallation": false
+}
